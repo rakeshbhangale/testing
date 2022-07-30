@@ -1,0 +1,14 @@
+Resolving dependencies...
+Resolving package dependencies...
+4 Problems:
+Problem: docker-20.10.17_ce-3.8.x86_64 obsoletes docker-libnetwork < 0.7.0.2 provided by docker-libnetwork-0.7.0.1+gitr2902_153d0769a118-lp151.2.12.1.x86_64
+Problem: docker-kubic-bash-completion-20.10.17_ce-3.7.noarch conflicts with docker-bash-completion > 1.12.6 provided by docker-bash-completion-20.10.17_ce-3.8.noarch
+Problem: docker-kubic-fish-completion-20.10.17_ce-3.7.noarch conflicts with docker-fish-completion provided by docker-fish-completion-20.10.17_ce-3.8.noarch
+Problem: docker-kubic-zsh-completion-20.10.17_ce-3.7.noarch conflicts with docker-zsh-completion > 1.12.6 provided by docker-zsh-completion-20.10.17_ce-3.8.noarch
+
+Problem: docker-20.10.17_ce-3.8.x86_64 obsoletes docker-libnetwork < 0.7.0.2 provided by docker-libnetwork-0.7.0.1+gitr2902_153d0769a118-lp151.2.12.1.x86_64
+ Solution 1: Following actions will be done:
+  do not install docker-libnetwork-0.7.0.1+gitr2902_153d0769a118-lp151.2.12.1.x86_64
+  do not install docker-kubic-20.10.17_ce-3.7.x86_64
+ Solution 2: do not install docker-20.10.17_ce-3.8.x86_64
+
